@@ -5,8 +5,9 @@ public class junio29b {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Dame tu nombre");
         String nombre = scanner.nextLine();
-        System.out.println("hola" + nombre);
+        System.out.println("hola,hola" + nombre);
+        
     }
-    
-    public static String saludar(String nombre)
+    public static String saludar(String nombre);
+   
 }
